@@ -1,1 +1,1 @@
-- [cPanel EA4 MultiPHP vs CloudLinux PHP Selector](cpanel_multiphp_config.md)
+- [cPanel EA4 MultiPHP vs CloudLinux PHP Selector](cpanel_multiphp_config)
