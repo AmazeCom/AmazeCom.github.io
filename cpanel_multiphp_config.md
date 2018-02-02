@@ -16,14 +16,14 @@ Each version of PHP installed on the server has a system wide selection between
 [Amaze](https://www.amaze.com.au/) defaults to using `suphp` for all versions of PHP.
 
 Each domain can be individually configured to use a specific version of PHP and to
-either use `php-fpm` or not. &nbsp; If it is configured not to use `php-fpm` then the PHP
+either use `php-fpm` or not. &nbsp; If it is not configured to use `php-fpm` then the PHP
 will be run using the system wide selected handler for that version of php (for
 [Amaze](https://www.amaze.com.au/) that usually means `suphp`). &nbsp; Like with `dso` only
 the cPanel EA4 versions (`ea-phpXX`) are allowed to run under `php-fpm`.
 
 There are currently
 ([cPanel version 68](https://documentation.cpanel.net/pages/viewpage.action?pageId=2449480))
-are number of bugs and caveats to be aware of:
+a number of bugs and caveats to be aware of:
 
 - Only the superuser can change whether a domain is using `php-fpm` or not. &nbsp; If you wish
   to change this for a particular domain on an [Amaze](https://www.amaze.com.au/) hosted cPanel
